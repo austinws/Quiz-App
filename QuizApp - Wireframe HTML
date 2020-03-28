@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Quiz App</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header> 
+      <div class = 'header'>
+        <h1>Tallest Mountains Quiz </h1>
+      </div>
+    </header>
+
+    <main role = 'main'>
+      <legend> Mountains are just big piles of rocks. </legend>
+      <p> The goal of this quiz is to test your knowledge of the highest mountains on the continents of planet Earth. </p>
+
+      <div class = 'button'>
+        <button type = "button" id = 'start'> Begin </button>
+      </div>
+      
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
