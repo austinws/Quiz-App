@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Quiz App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+    <link rel = "shortcut icon" href = "#">
+    <link href="float-grid.css" rel="stylesheet" type="text/css"/>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header> 
+      <div class = "row">
+        <div class = "col-12">
+          <h1>Tallest Mountains Quiz </h1>
+          <div class = "question-and-score"></div>
+        </div>
+      </div>
+    </header>
+
+    <main role = 'main' aria-live = "assertive">
+        <fieldset>
+          <div class = "row">
+            <div class = "col-12">
+              <legend> Mountains are just big piles of rocks and sediments. </legend>
+              <p> The goal of this quiz is to test your knowledge of the highest mountains on the continents of planet Earth and beyond. Who knows, we may even go to space! </p>
+            </div>
+          </div>
+          
+          <div class = "row">
+            <div class = "col-12">
+                <button type="button" id = "start">Begin</button>
+            </div>
+          </div>
+
+        </fieldset>
+      
+    </main>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="store.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
